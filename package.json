@@ -1,6 +1,5 @@
 {
-  "name": "algorithms-visualizer",
-  "homepage": "https://suaebahmed.github.io/algorithms-visualizer",
+  "name": "pathfinding-visualizer",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
