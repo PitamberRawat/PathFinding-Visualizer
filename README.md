@@ -1,6 +1,6 @@
 
 # PathFinding Visualizer
-A react-based algorithms visualizer, built without any UI library. You can view live [here](https://suaebahmed.github.io/algorithms-visualizer/).
+A react-based algorithms visualizer, built without any UI library.
 
 # Table of Contents
   - [Path Finding](https://github.com/suaebahmed/algorithms-visualizer#1-Path-Finding)
