@@ -1,12 +1,9 @@
 
-# Algorithms Visualizer
+# PathFinding Visualizer
 A react-based algorithms visualizer, built without any UI library. You can view live [here](https://suaebahmed.github.io/algorithms-visualizer/).
 
 # Table of Contents
   - [Path Finding](https://github.com/suaebahmed/algorithms-visualizer#1-Path-Finding)
-  - [Sorting](https://github.com/suaebahmed/algorithms-visualizer#2-Sorting)
-  - [Spiral Prime](https://github.com/suaebahmed/algorithms-visualizer#3-Spiral-Prime)
-  - [N Queen Problem](https://github.com/suaebahmed/algorithms-visualizer#4-N-Queen-Problem)
 
 # 1. Path Finding
 
@@ -33,44 +30,6 @@ Each grid cell represents a node in a implicit graph.
 - [x] Drag and drop the source and target nodes
 - [x] Control animation speed
 
-# 2. Sorting
-
-## Concepts
-Each bar represent a positive integer value and we compare two value to sort in ascending order 
-
-## Features
-- [x] Sorting Algorithms
-  - [x] Bubble sort
-  - [x] Selection sort
-  - [x] Insertion sort
-  - [x] Quick sort
-  - [x] Merge sort
-
-- [x] Control size of bars
-- [x] Generate new random bars
-- [x] Control animation speed
-
-# 3. Spiral Prime
-
-## Concepts
-Each grid represent a positive interger number 
-  - we check the number is prime or not
-  - if the number is prime then mark as a circle
-
-## Features
- - [x] Count the total of prime numbers
- - [x] Creating Spiral from the center of grid
-
-# 4. N Queen Problem
-
-## Concepts
-The whole square grid represent chess board and A queen can attack the other queens by moving any number of squares vertically, horizontally or diagonally
-the algorithm place the queen column by column and check the queen attack each other or not...
-
-## Features
- - [x] Resize the chess board
- - [x] Control animation speed
-
 
 ## Installation
 
@@ -90,9 +49,6 @@ the algorithm place the queen column by column and check the queen attack each o
 I took inspirations from the following sources for some of the segments.
 
 - `Pathfinder` : [This Projects That Got Me Into Google](https://youtu.be/n4t_-NjY_Sg)
-- `Sorting` : [Sorting Visualizer Tutorial (software engineering project)](https://youtu.be/pFXYym4Wbkc)
-- `Spiral of Primes` : [Coding a Spiral of Primes](https://youtu.be/a35KWEjRvc0)
-- `N-Queen Problem` : [Algorithm Visualizer](https://github.com/TamimEhsan/AlgorithmVisualizer)
 
 ## What I have revised/learnt by doing this project
   1. implementing algorithm to visualize
