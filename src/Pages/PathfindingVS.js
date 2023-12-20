@@ -1,21 +1,19 @@
 import React,{useEffect, useState} from 'react'
-import '../styles/PathfindingVS.css';
+import './PathfindingVS.css';
 import Astar from '../algorithm/path/A_star_algo';
-import basicMaze from '../algorithm/maze/basic-maze';
 import BFS from '../algorithm/path/bfs';
 import DFS from '../algorithm/path/dfs';
 import Dijkstra from '../algorithm/path/dijkstra';
+import basicMaze from '../algorithm/maze/basic-maze';
 import Randomized_dfs from '../algorithm/maze/randomized_dfs';
 import recursiveDivision from '../algorithm/maze/recursive_division';
-import Navbar from '../components/Navbar';
-import Modal from '../components/Modal';
 
 /*
 super(props);// call the super class constructor and pass in the props parameter
 */
 
-var rows = 17;
-var cols = 31;
+var rows = 20;
+var cols = 41;
 
 var START_NODE_ROW = 4, START_NODE_COL = 6;
 var END_NODE_ROW = rows-6, END_NODE_COL = cols-6;
@@ -34,7 +32,7 @@ function App(){
 
     useEffect(()=>{
         gridInitialize();
-        popupClickHandle();
+        // popupClickHandle();
     },[])
 
     const gridInitialize =()=>{
@@ -228,25 +226,13 @@ function App(){
             END_NODE_COL = c;
         } 
     }
-    const popupClickHandle = () =>{
-        var blur = document.getElementById("Container-blur");
-        blur.classList.toggle('active');
-        var popup = document.getElementById("popup");
-        popup.classList.toggle('unActive');
-    }
+   
 
     return (
     <>
-    <Modal style={{border: "1px solid #334155", paddingBottom: "20px"}} popupClickHandle = {popupClickHandle}>
-        <h3 style={{color:"#334155",textAlign:"center"}}>Video Tutorial</h3>
-        <div style={{display:"flex",justifyContent:"center"}}>
-            <iframe width="90%" height="300px" src="https://www.youtube.com/embed/iK95rIRVbMo?autoplay=1&mute=1" title='myVideo'>
-            </iframe> 
-        </div>
-    </Modal>
 
     <div id="Container-blur">
-        <Navbar msg='Path Finder Visualizer'></Navbar>
+        {/* <Navbar msg='Path Finder Visualizer'></Navbar> */}
         <div className='path-container'>
             <div className='path-header'>
                     <div>

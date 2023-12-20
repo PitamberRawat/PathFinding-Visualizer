@@ -1,13 +1,4 @@
-/* 
-To see my c++ submission:  
-https://cses.fi/problemset/result/3677359/
 
-Want to learn more about a* algorithm please visit
-
-https://www.youtube.com/watch?v=icZj67PTFhc&t=256s
-https://en.wikipedia.org/wiki/A*_search_algorithm
-
-*/
 var dx = [0,0,+1,-1]
 var dy = [+1,-1,0,0]
 
