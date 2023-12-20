@@ -46,9 +46,7 @@ Each grid cell represents a node in a implicit graph.
 ```
 ### Acknowledge
 
-I took inspirations from the following sources for some of the segments.
-
-- `Pathfinder` : [This Projects That Got Me Into Google](https://youtu.be/n4t_-NjY_Sg)
+I took inspirations from the few sources for some of the segments.
 
 ## What I have revised/learnt by doing this project
   1. implementing algorithm to visualize
